@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hx02T9r4AsmKoHpvWU/I5oEVVVNOxc3wmsYgwYQ2qRXdYDKncU5vs3Oi6QY/T0owMVioeNMF0c20z7rw6xcoXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+  ],
+  "logs": []
+}
