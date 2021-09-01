@@ -9,12 +9,15 @@ namespace Ecommerce.Models.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id_user_pass_reg")]
-        public int UserPassId { get; set; }
+        public int userPassId { get; set; }
 
         [Column("id_user")]
-        public int UserId { get; set; }
+        public int userId { get; set; }
 
         [Column("id_user_pass")]
-        public string PasswordHash { get; set; }
+        public string passwordHash { get; set; }
+
+        [NotMapped]
+        public User user { get; set; }
     }
 }
