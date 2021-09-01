@@ -12,45 +12,45 @@ namespace Ecommerce.Models.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id_user_main")]
-        public int Id_user_main { get; set; }
+        public int userId { get; set; }
 
         [Column("user_nickname")]
-        public string User_nick { get; set; }
+        public string nickUser { get; set; }
 
         [Column("user_nombres")]
-        public string User_nombres { get; set; }
+        public string namesUser { get; set; }
 
         [Column("user_apellidos")]
-        public string User_apellidos { get; set; }
+        public string surnamesUser { get; set; }
 
         [Column("user_dni")]
-        public string Dni { get; set; }
+        public string dniUser { get; set; }
 
         [Column("user_rol_id")]
-        public int Rol_id { get; set; }
+        public int roleId { get; set; }
 
         [NotMapped]
-        public virtual ICollection<UserRole> UsuarioRol { get; set; }
+        public virtual ICollection<UserRole> userRoles { get; set; }
 
         [NotMapped]
-        public UserPass UsuarioPass { get; set; }
+        public UserPass passUser { get; set; }
 
         [Column("user_email")]
-        public string Correo { get; set; }
+        public string emailUser { get; set; }
 
         [Column("user_edad")]
-        public int Edad { get; set; }
+        public int ageUser { get; set; }
 
         [Column("user_genero")]
-        public string Genero { get; set; }
+        public string genderUser { get; set; }
 
         [Column("FechaCreacion")]
-        public DateTime? FechaCreacion { get; set; }
+        public DateTime? dataCreated { get; set; }
 
         [NotMapped]
-        public string FechaAlta { get { return String.Format("{0:dddd, MMMM d, yyyy}", FechaCreacion); } }
+        public string creationDate { get { return String.Format("{0:dddd, MMMM d, yyyy}", dataCreated); } }
 
         [Column("Eliminado")]
-        public bool Eliminado { get; set; }
+        public bool removed { get; set; }
     }
 }

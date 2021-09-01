@@ -9,12 +9,12 @@ namespace Ecommerce.Models.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id_rol")]
-        public int RoleId { get; set; }
+        public int roleId { get; set; }
 
         [Column("nombre_rol")]
-        public string RoleName { get; set; }
+        public string roleName { get; set; }
 
         [Column("Eliminado")]
-        public bool Removed { get; set; }
+        public bool removed { get; set; }
     }
 }
