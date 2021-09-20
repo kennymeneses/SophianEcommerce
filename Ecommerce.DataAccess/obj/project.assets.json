@@ -5892,11 +5892,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
       "projectName": "Ecommerce.DataAccess",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+      "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5913,8 +5913,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+            "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+              "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
             }
           }
         }

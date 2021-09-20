@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0s91wjm3hTEgd51zYuRU/km0q5xRAZOWksfIlsZj9ZN8btR3VQpS9pKJFg4+4Prt9cndbjQy4iFBThuvALRZgQ==",
+  "dgSpecHash": "Aeim/LsClwrNFRDBjc2k5iDdpMFQXDbi33ljNoIaqmF8lVO4gLmGdX/qUz7vf3VH9hwd/nGStgz+ak3ciQOJyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.9\\microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",

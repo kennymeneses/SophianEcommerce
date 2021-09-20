@@ -25,7 +25,11 @@ namespace Ecommerce.DataAccess
 
             builder.Entity<User>()
                 .HasOne(up => up.passUser)
-                .WithOne();
+                .WithOne(pu => pu.user);
+
+
+            builder.Entity<UserPass>()
+                .HasKey(up => up.userPassId);
         }
 
         public virtual void Save()
@@ -34,5 +38,6 @@ namespace Ecommerce.DataAccess
         }
 
         public DbSet<User> users { get; set; }
+        public DbSet<UserPass> userPass { get; set; }
     }
 }

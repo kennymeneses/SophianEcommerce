@@ -1,17 +1,159 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {}
+    "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {
+    "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
-        "projectName": "Ecommerce.ServiceApp",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
+        "projectUniqueName": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj",
+        "projectName": "Ecommerce.BussinessLayer",
+        "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\obj\\",
+        "outputPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+              },
+              "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              },
+              "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
+                "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+        "projectName": "Ecommerce.DataAccess",
+        "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectName": "Ecommerce.Models",
+        "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,7 +181,78 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
+        "projectName": "Ecommerce.ServiceApp",
+        "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.ServiceApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
+                "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj"
+              },
+              "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
+                "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.13, )"
@@ -59,6 +272,74 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj",
+        "projectName": "Ecommerce.Tools",
+        "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\bin\Debug\netcoreapp3.1\Ecommerce.DataAccess.deps.json
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\bin\Debug\netcoreapp3.1\Ecommerce.DataAccess.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\bin\Debug\netcoreapp3.1\Ecommerce.DataAccess.runtimeconfig.dev.json
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\bin\Debug\netcoreapp3.1\Ecommerce.DataAccess.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\bin\Debug\netcoreapp3.1\Ecommerce.DataAccess.pdb
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\bin\Debug\netcoreapp3.1\Ecommerce.Models.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\bin\Debug\netcoreapp3.1\Ecommerce.Models.pdb
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.csproj.CopyComplete
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.pdb
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.DataAccess\obj\Debug\netcoreapp3.1\Ecommerce.DataAccess.genruntimeconfig.cache
