@@ -49,6 +49,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWS.Logger.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -243,6 +249,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AWS.Logger.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.1.7, )"

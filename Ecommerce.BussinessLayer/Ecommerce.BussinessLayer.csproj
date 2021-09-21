@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AWS.Logger.AspNetCore" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Ecommerce.DataAccess\Ecommerce.DataAccess.csproj" />
     <ProjectReference Include="..\Ecommerce.Models\Ecommerce.Models.csproj" />
     <ProjectReference Include="..\Ecommerce.Tools\Ecommerce.Tools.csproj" />

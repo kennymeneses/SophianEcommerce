@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "deu7leLnKSoWBKYgPCP5mkasJ4j8U7YIHM6Kd8BnDAQ6sFAi+OT0ZxqLBO/ry1YYVwBNB4EiUIvFdaFigxiCRQ==",
+  "dgSpecHash": "mDGMuZLHl80OhuG8eP2LQ+jX7d2kivLuk2Lq0rMZ40ZEnx7iCXTbN4uSRswZryrqxQvwFQ9ZldWNZ5cqC+8bVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\aws.logger.aspnetcore\\3.2.0\\aws.logger.aspnetcore.3.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\aws.logger.core\\3.0.0\\aws.logger.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.cloudwatchlogs\\3.7.0.5\\awssdk.cloudwatchlogs.3.7.0.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.core\\3.7.0.6\\awssdk.core.3.7.0.6.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.9\\microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.9\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.9.nupkg.sha512",

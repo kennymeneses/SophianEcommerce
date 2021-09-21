@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Ecommerce.ServiceApp/1.0.0": {
         "dependencies": {
+          "AWS.Logger.AspNetCore": "3.2.0",
           "Ecommerce.BussinessLayer": "1.0.0",
           "Ecommerce.Tools": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.7",
@@ -307,6 +308,62 @@
         },
         "compile": {
           "Ecommerce.ServiceApp.dll": {}
+        }
+      },
+      "AWS.Logger.AspNetCore/3.2.0": {
+        "dependencies": {
+          "AWS.Logger.Core": "3.0.0",
+          "Microsoft.Extensions.Configuration": "3.1.9",
+          "Microsoft.Extensions.DependencyInjection": "3.1.9",
+          "Microsoft.Extensions.Logging": "3.1.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWS.Logger.AspNetCore.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AWS.Logger.AspNetCore.dll": {}
+        }
+      },
+      "AWS.Logger.Core/3.0.0": {
+        "dependencies": {
+          "AWSSDK.CloudWatchLogs": "3.7.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWS.Logger.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AWS.Logger.Core.dll": {}
+        }
+      },
+      "AWSSDK.CloudWatchLogs/3.7.0.5": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.CloudWatchLogs.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.5"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.CloudWatchLogs.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.0.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.6"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
@@ -1441,6 +1498,7 @@
       },
       "Ecommerce.BussinessLayer/1.0.0": {
         "dependencies": {
+          "AWS.Logger.AspNetCore": "3.2.0",
           "Ecommerce.DataAccess": "1.0.0",
           "Ecommerce.Models": "1.0.0",
           "Ecommerce.Tools": "1.0.0"
@@ -3084,6 +3142,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWS.Logger.AspNetCore/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4u2VgZZdQT6srHfGY5mrOiEJchf0lPbWpLnzz0sgFtb+E/FVgxmYlXwRfJ348WQUaP+sqFlgf3QDuaPBxPQjvA==",
+      "path": "aws.logger.aspnetcore/3.2.0",
+      "hashPath": "aws.logger.aspnetcore.3.2.0.nupkg.sha512"
+    },
+    "AWS.Logger.Core/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MbLWtOvQdsUEHJ4jvMJaiGkyOTXot6VgJQUyAm3C5UUUTpEIViB5UN/y587P775pvgLxVmGyrfKMN6zi1I/gbg==",
+      "path": "aws.logger.core/3.0.0",
+      "hashPath": "aws.logger.core.3.0.0.nupkg.sha512"
+    },
+    "AWSSDK.CloudWatchLogs/3.7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E9mEMaCVStnkzrs2gb35AbMz8xEGCqMGSnk+yyFJbkmdu9a+w5MVsuwRMkHbqiKn1bs5FTpdQJlV/NtgSYeHbA==",
+      "path": "awssdk.cloudwatchlogs/3.7.0.5",
+      "hashPath": "awssdk.cloudwatchlogs.3.7.0.5.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2oHC7TTLUjwVIvyS3CmCGvDPpgfrm/2FrjRwB/jUPEGreHpGkvTZHgcWbiD9QkLx1BLWJMpP+jww7CXbTuZZXQ==",
+      "path": "awssdk.core/3.7.0.6",
+      "hashPath": "awssdk.core.3.7.0.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
       "type": "package",

@@ -75,3 +75,7 @@ C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Ser
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\AWS.Logger.Core.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\AWSSDK.CloudWatchLogs.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\AWS.Logger.AspNetCore.dll

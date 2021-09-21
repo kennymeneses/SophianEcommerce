@@ -22,5 +22,7 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\User\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.10.13</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\User\.nuget\packages\microsoft.entityframeworkcore.tools\3.1.7</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\User\.nuget\packages\awssdk.core\3.7.0.6</PkgAWSSDK_Core>
+    <PkgAWSSDK_CloudWatchLogs Condition=" '$(PkgAWSSDK_CloudWatchLogs)' == '' ">C:\Users\User\.nuget\packages\awssdk.cloudwatchlogs\3.7.0.5</PkgAWSSDK_CloudWatchLogs>
   </PropertyGroup>
 </Project>

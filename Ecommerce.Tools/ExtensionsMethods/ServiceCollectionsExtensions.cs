@@ -12,7 +12,7 @@ namespace Ecommerce.Tools.ExtensionsMethods
             IConfiguration configuration)
         {
             return services.AddDbContext<DataContext>(options => 
-                            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+                            options.UseSqlServer(configuration.GetConnectionString("AmazonRDSConnection")));
         }
     }
 }
