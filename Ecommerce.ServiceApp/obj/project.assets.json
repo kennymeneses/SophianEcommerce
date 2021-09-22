@@ -50,6 +50,21 @@
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
         "type": "package",
         "compile": {
@@ -1688,6 +1703,21 @@
         "lib/netstandard2.0/AWSSDK.Core.pdb",
         "lib/netstandard2.0/AWSSDK.Core.xml",
         "tools/account-management.ps1"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+      "sha512": "0FwXX6sTTXBq+ZajtT9VSNNFfmzsFL7Jiy4Qj4qT5qBbUPry26V2rh8QMWn52J2+81q9u7Bm0YKfsClu22VTMA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
@@ -5883,6 +5913,7 @@
       "AWS.Logger.AspNetCore >= 3.2.0",
       "Ecommerce.BussinessLayer >= 1.0.0",
       "Ecommerce.Tools >= 1.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.10",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.7",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13"
@@ -5937,6 +5968,10 @@
           "AWS.Logger.AspNetCore": {
             "target": "Package",
             "version": "[3.2.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[3.1.10, )"
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",

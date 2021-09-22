@@ -34,6 +34,7 @@
           "AWS.Logger.AspNetCore": "3.2.0",
           "Ecommerce.BussinessLayer": "1.0.0",
           "Ecommerce.Tools": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.7",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.7",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
@@ -364,6 +365,20 @@
         },
         "compile": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "3.1.10.0",
+            "fileVersion": "3.100.1020.52004"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
@@ -3170,6 +3185,13 @@
       "sha512": "sha512-2oHC7TTLUjwVIvyS3CmCGvDPpgfrm/2FrjRwB/jUPEGreHpGkvTZHgcWbiD9QkLx1BLWJMpP+jww7CXbTuZZXQ==",
       "path": "awssdk.core/3.7.0.6",
       "hashPath": "awssdk.core.3.7.0.6.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0FwXX6sTTXBq+ZajtT9VSNNFfmzsFL7Jiy4Qj4qT5qBbUPry26V2rh8QMWn52J2+81q9u7Bm0YKfsClu22VTMA==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.10",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
       "type": "package",

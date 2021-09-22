@@ -1,5 +1,6 @@
 ﻿using Ecommerce.BussinessLayer.UserManagment;
 using Ecommerce.Models.InputsBody;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,6 +10,7 @@ namespace Ecommerce.ServiceApp.Controllers
 {
     [Route("api/users")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class UsersController : ControllerBase
     {
         ILogger<UsersController> _logger;
@@ -43,7 +45,7 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
@@ -64,7 +66,7 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpPost]
         public IActionResult Post([FromBody] UserInput newUser)
         {
