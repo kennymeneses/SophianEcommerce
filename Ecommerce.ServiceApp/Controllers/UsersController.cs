@@ -45,7 +45,7 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        //[AllowAnonymous]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
