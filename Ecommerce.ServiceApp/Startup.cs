@@ -1,3 +1,4 @@
+using Ecommerce.BussinessLayer;
 using Ecommerce.BussinessLayer.LoginManagement;
 using Ecommerce.BussinessLayer.UserManagment;
 using Ecommerce.DataAccess;
@@ -33,6 +34,7 @@ namespace Ecommerce.ServiceApp
             services.AddControllers();
             services.AddScoped<DataContext>();
             services.AddSingleton<EncryptData>();
+            services.AddSingleton<DefaultValues>();
             services.AddScoped<IUserManager,UserManager>();
             services.AddScoped<ILoginManager,LoginManager>();
             services.AddServiceContext(Configuration);

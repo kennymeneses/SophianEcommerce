@@ -80,3 +80,11 @@ C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Ser
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\AWS.Logger.AspNetCore.dll
 C:\Users\User\onedrive\desktop\proyectos\backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.ServiceApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll

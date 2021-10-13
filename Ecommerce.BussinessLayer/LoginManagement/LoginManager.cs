@@ -23,23 +23,20 @@ namespace Ecommerce.BussinessLayer.LoginManagement
         private readonly IConfiguration _configuration;
         DataContext _context;
         ILogger<LoginManager> _logger;
-        Dictionary<int, string> rolesList = new Dictionary<int, string>();
+        DefaultValues _defaultValues;
         EncryptData _encrypt;
         
         public LoginManager(DataContext context, 
                             ILogger<LoginManager> logger, 
                             IConfiguration configuration,
-                            EncryptData encrypt)
+                            EncryptData encrypt,
+                            DefaultValues defaultValues)
         {
             _configuration = configuration;
             _logger = logger;
             _context = context;
             _encrypt = encrypt;
-
-            rolesList.Add(1, "SuperAdmin");
-            rolesList.Add(2, "Admin");
-            rolesList.Add(3, "Client");
-            rolesList.Add(4, "Visitor");
+            _defaultValues = defaultValues;
         }
 
         public OutputToken BuildToken(LoginInput input, User user)
@@ -50,10 +47,11 @@ namespace Ecommerce.BussinessLayer.LoginManagement
 
             var _claims = new[]
             {
-                new Claim("UserEmail", input.email),
-                new Claim("UserId", user.userId.ToString()),
-                new Claim("UserRole", rolesList[user.roleId])
+                new Claim(ClaimTypes.Email, input.email),
+                new Claim("IdUser", user.userId.ToString()),
+                new Claim(ClaimTypes.Role, _defaultValues.roles[user.roleId])
             };
+            var palabra = _configuration["key_secret"];
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["key_secret"]));
             var signCredential = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var expiration = DateTime.Now.AddHours(1);

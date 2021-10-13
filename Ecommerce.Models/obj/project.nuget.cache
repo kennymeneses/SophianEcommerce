@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Xz8QbuNoiPWKaCyiLyKShWwAnNNdXl2FnnvwONXuYXE0OAhFKL2DFCOFDlBJP0Ljj9KvSjwWFs2S5KeqCtxT6g==",
+  "dgSpecHash": "6aQW0fkOap1UiLGC5AUbgP4rovVBZTU0eEzsM9k0EEbiRL16Aszn3Z6esu/xi39gMThIbuOPIYoJ05j8aLoAaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\onedrive\\desktop\\proyectos\\backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.text.encodings.web\\5.0.1\\system.text.encodings.web.5.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

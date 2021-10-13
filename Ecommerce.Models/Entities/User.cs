@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Ecommerce.Models.Entities
 {
@@ -49,7 +49,7 @@ namespace Ecommerce.Models.Entities
 
         [NotMapped]
         public string creationDate { get { return String.Format("{0:dddd, MMMM d, yyyy}", dataCreated); } }
-
+        
         [Column("Eliminado")]
         public bool removed { get; set; }
     }

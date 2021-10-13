@@ -1,6 +1,7 @@
 ﻿using Ecommerce.DataAccess;
 using Ecommerce.Models.Entities;
 using Ecommerce.Models.InputsBody;
+using Ecommerce.Models.Outputs;
 using Ecommerce.Models.ResponseStatus;
 using Ecommerce.Tools;
 using Microsoft.EntityFrameworkCore;
@@ -92,6 +93,7 @@ namespace Ecommerce.BussinessLayer.UserManagment
         {
             var singleQuery = new SingleQuery();
             var user = new User();
+            var userOutput = new UserOutput();
             DateTime localDate = DateTime.Now;
 
             try
@@ -101,8 +103,6 @@ namespace Ecommerce.BussinessLayer.UserManagment
                 var timer = Stopwatch.StartNew();
 
                 user = await _context.users.FirstOrDefaultAsync(u => u.userId == id);
-
-                timer.Stop();
 
                 if (user == null)
                 {
@@ -115,10 +115,23 @@ namespace Ecommerce.BussinessLayer.UserManagment
                     return singleQuery;
                 }
 
+                timer.Stop();
+
+                userOutput.id = user.userId;
+                userOutput.nick = user.nickUser;
+                userOutput.names = user.namesUser;
+                userOutput.surnames = user.surnamesUser;
+                userOutput.dni = user.dniUser;
+                userOutput.roleId = user.roleId;
+                userOutput.email = user.emailUser;
+                userOutput.age = user.ageUser;
+                userOutput.gender = user.genderUser;
+                userOutput.dataCreated = user.dataCreated.Value.ToString("dd/MM/yyyy");
+
                 _logger.LogInformation("The user was found and took {0} ms.",timer.ElapsedMilliseconds);
 
                 singleQuery.apiStatus = "ok";
-                singleQuery.entity = user;
+                singleQuery.entity = userOutput;
                 singleQuery.apiMessage = String.Format("The user with id {0} was found",id);
 
                 return singleQuery;

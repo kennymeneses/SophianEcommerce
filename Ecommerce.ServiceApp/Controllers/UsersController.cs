@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Threading.Tasks;
 
 namespace Ecommerce.ServiceApp.Controllers
 {
@@ -22,20 +23,20 @@ namespace Ecommerce.ServiceApp.Controllers
             _manager = manager;
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "SuperAdmin, Admin")]
         [HttpGet]
-        public IActionResult Get(int page = 0, int size = 3)
+        public async Task<IActionResult> Get(int page = 0, int size = 3)
         {
             try
             {
-                var query = _manager.Search(page, size);
+                var query = await _manager.Search(page, size);
 
-                if (query.Result.apiStatus.Equals("error"))
+                if (query.apiStatus.Equals("error"))
                 {
                     return NotFound();
                 }
                 
-                return Ok(query.Result);
+                return Ok(query);
             }
             catch (Exception ex)
             {
@@ -45,20 +46,20 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "SuperAdmin, Admin, Client")]
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
             try
             {               
-                var singleQuery = _manager.SearchById(id);
+                var singleQuery = await _manager.SearchById(id);
 
-                if (singleQuery.Result.apiStatus.Equals("error"))
+                if (singleQuery.apiStatus.Equals("error"))
                 {
-                    return NotFound(singleQuery.Result);
+                    return NotFound(singleQuery);
                 }
 
-                return Ok(singleQuery.Result);
+                return Ok(singleQuery);
             }
             catch (Exception)
             {
@@ -66,9 +67,9 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        //[AllowAnonymous]
+        [AllowAnonymous]
         [HttpPost]
-        public IActionResult Post([FromBody] UserInput newUser)
+        public async Task<IActionResult> Post([FromBody] UserInput newUser)
         {
             try
             {
@@ -77,16 +78,16 @@ namespace Ecommerce.ServiceApp.Controllers
                     return BadRequest();
                 }
 
-                var checkStatus = _manager.Create(newUser);
+                var checkStatus = await _manager.Create(newUser);
 
-                if (checkStatus.Result.apiStatus != "ok")
+                if (checkStatus.apiStatus != "ok")
                 {
-                    return StatusCode(503, checkStatus.Result);
+                    return StatusCode(503, checkStatus);
                 }
 
-                var code = Int32.Parse(checkStatus.Result.code);
+                var code = Int32.Parse(checkStatus.code);
 
-                return StatusCode(code, checkStatus.Result);
+                return StatusCode(code, checkStatus);
             }
 
             catch (Exception ex)
@@ -97,9 +98,9 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "SuperAdmin, Admin, Client")]
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] UserInput modifyUser)
+        public async Task<IActionResult> Put(int id, [FromBody] UserInput modifyUser)
         {
             if (!ModelState.IsValid)
             {
@@ -108,14 +109,14 @@ namespace Ecommerce.ServiceApp.Controllers
 
             try
             {
-                var checkStatus = _manager.Update(id, modifyUser);
+                var checkStatus = await _manager.Update(id, modifyUser);
 
-                if (checkStatus.Result.apiStatus.Equals("error"))
+                if (checkStatus.apiStatus.Equals("error"))
                 {
-                    return StatusCode(422, checkStatus.Result);
+                    return StatusCode(422, checkStatus);
                 }
 
-                return Ok(checkStatus.Result);
+                return Ok(checkStatus);
             }
 
             catch (Exception ex)
@@ -126,20 +127,20 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "SuperAdmin, Admin")]
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             try
             {
-                var checkStatus = _manager.Remove(id);
+                var checkStatus = await _manager.Remove(id);
 
-                if(checkStatus.Result.apiStatus.Equals("error"))
+                if(checkStatus.apiStatus.Equals("error"))
                 {
-                    return StatusCode(404, checkStatus.Result);
+                    return StatusCode(404, checkStatus);
                 }
 
-                return Ok(checkStatus.Result);
+                return Ok(checkStatus);
             }
             catch (Exception ex)
             {
