@@ -1,6 +1,7 @@
 ﻿using Ecommerce.BussinessLayer.UserManagment;
 using Ecommerce.DataAccess;
 using Ecommerce.Models.Entities;
+using Ecommerce.Models.InputsBody;
 using Ecommerce.Tools;
 using Microsoft.Extensions.Logging;
 using Moq;
@@ -77,6 +78,59 @@ namespace Ecommerce.Tests
             var responseUserSearch = await userManager.Search(0, 3);
 
             Assert.Equal(3, responseUserSearch.data.Count);
+        }
+
+        [Fact]
+        public async Task It_ShouldFindASpecifiedUser()
+        {
+            var userFound = await userManager.SearchById(2002);
+
+            Assert.True(userFound.apiStatus == "ok");
+        }
+
+        [Fact]
+        public async Task It_ShouldCreateAnUser()
+        {
+            var userInput = new UserInput()
+            {
+                nick= "userRandom",
+                namesUser = "nameRandom",
+                surnameUser = "surnamesUser",
+                numberDocumentUser = "987654321",
+                rolIdUser = 1,
+                emailUser = "user@youremail.com",
+                ageUser = 30,
+                genderUser = "male",
+                dateCreation = DateTime.Now,
+                removed = false,
+                passwordUser = "blahblah"                
+            };
+
+            var createResponse = await userManager.Create(userInput);
+
+            Assert.True(createResponse.apiStatus == "ok");
+        }
+
+        [Fact]
+        public async Task It_UpdateAPropertyUser()
+        {
+            var userInput = new UserInput()
+            {
+                nick = "userForCrate",
+                namesUser = "nameRandom",
+                surnameUser = "surnameRandom",
+                numberDocumentUser = "123456789",
+                rolIdUser = 1,
+                emailUser = "random@correo.com",
+                ageUser = 30,
+                genderUser = "male",
+                dateCreation = DateTime.Now,
+                removed = false
+            };
+
+            var updateResponse = await userManager.Update(2001, userInput);
+
+            Assert.True(updateResponse.apiStatus == "ok");
         }
     }
 }
