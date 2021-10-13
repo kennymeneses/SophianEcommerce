@@ -23,9 +23,9 @@ namespace Ecommerce.Tests
             return context;
         }
 
-        private static DataContext InitializeData(DataContext context)
-        {
-                return context;
-        }
+        //private static DataContext InitializeData(DataContext context)
+        //{
+        //        return context;
+        //}
     }
 }

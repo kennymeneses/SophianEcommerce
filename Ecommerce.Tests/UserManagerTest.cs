@@ -132,5 +132,13 @@ namespace Ecommerce.Tests
 
             Assert.True(updateResponse.apiStatus == "ok");
         }
+
+        [Fact]
+        public async Task It_ShouldRemoveAnSpecifiedUser()
+        {
+            var removeResponse = await userManager.Remove(2001);
+
+            Assert.True(removeResponse.apiStatus == "ok");
+        }
     }
 }
