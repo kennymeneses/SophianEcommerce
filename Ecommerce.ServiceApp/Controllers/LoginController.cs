@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.ServiceApp.Controllers
 {
+    // it's just for create authorization tokens.
     [Route("api/login")]
     [ApiController]
     public class LoginController : ControllerBase
