@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cac4f0c5-2f72-47f5-8a34-83ac81702562": {
+      "ProjectGuid": "cac4f0c5-2f72-47f5-8a34-83ac81702562",
+      "DisplayName": "Ecommerce.BussinessLayer",
+      "ColorIndex": 0
+    },
+    "4c57a320-9593-4dde-a0a1-49316d366a25": {
+      "ProjectGuid": "4c57a320-9593-4dde-a0a1-49316d366a25",
+      "DisplayName": "Ecommerce.Models",
+      "ColorIndex": 1
+    },
+    "e1251d0f-f242-47df-96a0-40fc8181c6f9": {
+      "ProjectGuid": "e1251d0f-f242-47df-96a0-40fc8181c6f9",
+      "DisplayName": "Ecommerce.ServiceApp",
+      "ColorIndex": 2
+    },
+    "fe29128b-1443-4e6c-9130-bb71c8c82d4a": {
+      "ProjectGuid": "fe29128b-1443-4e6c-9130-bb71c8c82d4a",
+      "DisplayName": "Ecommerce.Tools",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -14,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using Swashbuckle.Swagger;
 using System;
 using System.Text;
 
@@ -52,20 +53,20 @@ namespace Ecommerce.ServiceApp
                                                          .AllowCredentials()                                                         
                                        ));
 
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer = true,
-                        ValidateIssuerSigningKey = true,
-                        ValidateAudience = true,
-                        ValidateLifetime = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["key_secret"])),
-                        ClockSkew = TimeSpan.Zero,
-                        ValidIssuer = "SophianCustomer",
-                        ValidAudience = "SophianEcommerce"
-                    }
-                );
+            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //    .AddJwtBearer(options =>
+            //        options.TokenValidationParameters = new TokenValidationParameters
+            //        {
+            //            ValidateIssuer = true,
+            //            ValidateIssuerSigningKey = true,
+            //            ValidateAudience = true,
+            //            ValidateLifetime = true,
+            //            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["key_secret"])),
+            //            ClockSkew = TimeSpan.Zero,
+            //            ValidIssuer = "SophianCustomer",
+            //            ValidAudience = "SophianEcommerce"
+            //        }
+            //    );
 
             services.AddMvc().AddNewtonsoftJson(opt => 
                             opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
@@ -75,6 +76,15 @@ namespace Ecommerce.ServiceApp
                 config.AddAWSProvider(Configuration.GetAWSLoggingConfigSection());
                 config.SetMinimumLevel(LogLevel.Debug);
             });
+
+            //services.AddRedis();
+
+            //services.AddSwaggerGen(
+            ////    sgo =>
+            ////{
+            ////    sgo.SwaggerDoc("v1", new Info { title = "SophianEcommerce API", version = "v1" });
+            ////}
+            //);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

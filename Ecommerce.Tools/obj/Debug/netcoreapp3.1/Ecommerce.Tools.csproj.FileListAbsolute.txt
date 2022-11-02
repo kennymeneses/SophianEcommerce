@@ -5,10 +5,11 @@ C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Too
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\bin\Debug\netcoreapp3.1\Ecommerce.Models.dll
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\bin\Debug\netcoreapp3.1\Ecommerce.DataAccess.pdb
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\bin\Debug\netcoreapp3.1\Ecommerce.Models.pdb
-C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.csprojAssemblyReference.cache
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.AssemblyInfoInputs.cache
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.AssemblyInfo.cs
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.csproj.CopyComplete
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.dll
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.pdb
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Tools\obj\Debug\netcoreapp3.1\Ecommerce.Tools.GeneratedMSBuildEditorConfig.editorconfig

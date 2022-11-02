@@ -1,9 +1,10 @@
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\bin\Debug\netcoreapp3.1\Ecommerce.Models.deps.json
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\bin\Debug\netcoreapp3.1\Ecommerce.Models.dll
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\bin\Debug\netcoreapp3.1\Ecommerce.Models.pdb
-C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.csprojAssemblyReference.cache
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.AssemblyInfoInputs.cache
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.AssemblyInfo.cs
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.dll
 C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.pdb
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\proyectos\Backends\SophianEcommerce\Ecommerce.Models\obj\Debug\netcoreapp3.1\Ecommerce.Models.GeneratedMSBuildEditorConfig.editorconfig

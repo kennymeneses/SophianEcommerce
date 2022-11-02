@@ -18,6 +18,5 @@ namespace Ecommerce.Tools
                 return HashString;
             }
         }
-
     }
 }

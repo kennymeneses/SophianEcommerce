@@ -11,7 +11,7 @@ namespace Ecommerce.ServiceApp.Controllers
 {
     [Route("api/users")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class UsersController : ControllerBase
     {
         ILogger<UsersController> _logger;
@@ -23,7 +23,7 @@ namespace Ecommerce.ServiceApp.Controllers
             _manager = manager;
         }
 
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        //[Authorize(Roles = "SuperAdmin, Admin")]
         [HttpGet]
         public async Task<IActionResult> Get(int page = 0, int size = 3)
         {
@@ -46,7 +46,7 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [Authorize(Roles = "SuperAdmin, Admin, Client")]
+        //[Authorize(Roles = "SuperAdmin, Admin, Client")]
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
@@ -67,7 +67,7 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UserInput newUser)
         {
@@ -98,7 +98,7 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [Authorize(Roles = "SuperAdmin, Admin, Client")]
+        //[Authorize(Roles = "SuperAdmin, Admin, Client")]
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] UserInput modifyUser)
         {
@@ -127,7 +127,7 @@ namespace Ecommerce.ServiceApp.Controllers
             }
         }
 
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        //[Authorize(Roles = "SuperAdmin, Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

@@ -12,7 +12,15 @@ namespace Ecommerce.Tools.ExtensionsMethods
             IConfiguration configuration)
         {
             return services.AddDbContext<DataContext>(options => 
-                            options.UseSqlServer(configuration.GetConnectionString("AmazonRDSConnection")));
+                            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+        }
+
+
+        public static IServiceCollection AddRedis(this IServiceCollection services)
+        {
+            return services
+
+            .AddSingleton<RedisConnection>();
         }
     }
 }
