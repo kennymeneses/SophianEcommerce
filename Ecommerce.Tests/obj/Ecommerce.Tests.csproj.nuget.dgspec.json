@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj",
         "projectName": "Ecommerce.BussinessLayer",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +32,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
               },
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
               },
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
               }
             }
           }
@@ -61,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,21 +75,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
         "projectName": "Ecommerce.DataAccess",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +107,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
               }
             }
           }
@@ -139,7 +148,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -148,21 +158,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "projectName": "Ecommerce.Models",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -199,7 +213,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -208,21 +223,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
         "projectName": "Ecommerce.ServiceApp",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.ServiceApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,11 +255,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj"
               },
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
               }
             }
           }
@@ -296,7 +315,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -308,21 +328,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj",
         "projectName": "Ecommerce.Tests",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tests\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tests\\Ecommerce.Tests.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -336,20 +360,20 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.BussinessLayer\\Ecommerce.BussinessLayer.csproj"
               },
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
               },
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
               },
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.ServiceApp\\Ecommerce.ServiceApp.csproj"
               },
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj"
               }
             }
           }
@@ -403,7 +427,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -412,21 +437,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj",
         "projectName": "Ecommerce.Tools",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.Tools\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\Ecommerce.Tools.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.Tools\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -440,8 +469,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\proyectos\\Backends\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\ProyectosSerios\\SophianEcommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
               }
             }
           }
@@ -491,7 +520,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -500,7 +530,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
